@@ -1,0 +1,140 @@
+name: tagc_app
+description: "Tenwek AGC mobile application that allows users to get their favourite hymn songs, make donations, tithes and offerings. Allow church departments to make announcements."
+
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  http: ^1.2.2
+  intl: ^0.19.0
+  logger: ^2.4.0
+  url_launcher: ^6.3.0
+  flutter_native_splash: ^2.4.1
+  smooth_page_indicator: ^1.2.0
+  carousel_slider: ^4.2.1
+  iconsax: ^0.0.8
+  get_storage: ^2.1.1
+  get: ^4.6.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.2
+
+flutter:
+
+  uses-material-design: true
+
+  #**************ASSETS**************
+  assets:
+    - assets/logos/
+    - assets/icons/
+    - assets/images/
+    - assets/fonts/
+
+  #************FONTS************#
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/raleway/Raleway-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/raleway/Raleway-Black.ttf
+          weight: 500
+        - asset: assets/fonts/raleway/Raleway-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/raleway/Raleway-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/raleway/Raleway-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/raleway/Raleway-Light.ttf
+          weight: 300
+        - asset: assets/fonts/raleway/Raleway-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/raleway/Raleway-Thin.ttf
+          weight: 200
+        - asset: assets/fonts/raleway/Raleway-SemiBold.ttf
+          weight: 600
+
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Light.otf
+          weight: 300
+        - asset: assets/fonts/poppins/Poppins-ExtraLight.otf
+          weight: 200
+        - asset: assets/fonts/poppins/Poppins-Medium.otf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-Bold.otf
+          weight: 700
+        - asset: assets/fonts/poppins/Poppins-Thin.otf
+          weight: 200
+        - asset: assets/fonts/poppins/Poppins-Regular.otf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-BoldItalic.otf
+          style: italic
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/quicksand/Quicksand-Regular.otf
+          weight: 500
+        - asset: assets/fonts/quicksand/Quicksand-Light.otf
+          weight: 300
+        - asset: assets/fonts/quicksand/Quicksand-LightItalic.otf
+          style: italic
+        - asset: assets/fonts/quicksand/Quicksand-Bold.otf
+          weight: 700
+        - asset: assets/fonts/quicksand/Quicksand_Dash.otf
+          weight: 500
+
+    - family: Caviar-Dreams
+      fonts:
+        - asset: assets/fonts/Caviar-Dreams/CaviarDreams.ttf
+          weight: 500
+        - asset: assets/fonts/Caviar-Dreams/Caviar_Dreams_Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Caviar-Dreams/CaviarDreams_BoldItalic.ttf
+          style: italic
+
+
+
+
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

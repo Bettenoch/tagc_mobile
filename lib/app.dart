@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:tagc_app/features/authentication/screens/onboarding/onboarding.dart';
 import 'package:tagc_app/utils/theme/theme.dart';
 
 
@@ -14,24 +15,9 @@ class App extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
-      home: const MyHomePage(),  // Add this line
+      home: const OnBoardingScreen(),  // Add this line
 
     );
   }
 }
 
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Home Page'),
-      ),
-      body: const Center(
-        child: Text('Hello Test, MISTRAL! TEST'),
-      ),
-    );
-  }
-}

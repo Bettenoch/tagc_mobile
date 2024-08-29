@@ -10,10 +10,10 @@ class TImages {
   static const String tikTok = "assets/icons/tiktok.svg";
   static const String instagram = "assets/icons/instagram.svg";
 
-  static const String onBoardingImage1 = "assets/images/anime1.gif";
-  static const String onBoardingImage2 = "assets/images/anime3.gif";
-  static const String onBoardingImage3 = "assets/images/delivery.gif";
-  static const String onBoardingImage4 = "assets/images/delivery2.gif";
+  static const String onBoardingImage1 = "assets/on_boarding/anime-dance.gif";
+  static const String onBoardingImage2 = "assets/on_boarding/choir_animated.gif";
+  static const String onBoardingImage3 = "assets/on_boarding/dance-anime.gif";
+  static const String onBoardingImage4 = "assets/on_boarding/holy-bible.gif";
 
   //random images
 
